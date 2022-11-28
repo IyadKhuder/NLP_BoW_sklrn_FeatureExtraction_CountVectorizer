@@ -1,8 +1,38 @@
-# NLP_BoW_sklrn_FeatureExtraction_CountVectorizer
+# NLP_BoW_sklrn_Tweets_Sentiment_Analysis
 
-Natural Language Processing
-In this Notebook, I'm applying the python sklearn classifier to make a BoW "Bag of Words" model, to extract the features of a set of reviews on a restaurant.
+Applied Text Mining and Sentiment Analysis with Python 
+* Framework: Scikit-Learn
+* Class: CountVectorizer
+
+In this Notebook, I'm applying the following concepts/tools to build a model that is able to do a Sentiment Analysis on a dataset of tweets:
+
+
+**Text Normalization**
+
+using Text Mining techniques and some suitable libraries like NLTK.
+
+The following tasks are applied on the tweets:
+
+* Tokenization
+
+* Stemming
+
+* Lemmatization
+
+
+**Text Representation**
+
+using Text Representation techniques:
+
+* BoW
+
+* TF-IDF
+
+**ML Modelling**
+
+using Scikit-Learn.
+
+P.S. The model first performs all the necessary cleaning tasks.
 
 Case-study:
-Given the data sample of reviews on a restaurant, we're going to build a NLP model that would be able to predict whether a review is postivie or negative.
-
+Given the dataset of tweets, we're going to build a NLP model that would be able to predict whether a tweet is postivie or negative.
